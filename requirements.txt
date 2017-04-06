@@ -2,6 +2,6 @@ Django==1.11
 Pillow==4.1.0
 wagtail==1.9
 django-treasuremap==0.2.4
-django-leaflet==0.21.0
+django-leaflet==0.22.0
 django-location-field==2.0.3
 django-easy-maps==0.9.3
