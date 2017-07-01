@@ -1,5 +1,5 @@
 Django==1.11.2
-Pillow==4.1.1
+Pillow==4.2.0
 wagtail==1.11
 django-treasuremap==0.2.5
 django-leaflet==0.22.0
