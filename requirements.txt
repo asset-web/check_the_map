@@ -1,4 +1,4 @@
-Django==2.0
+Django==2.0.1
 Pillow==5.0.0
 wagtail==1.13.1
 django-treasuremap==0.2.5
