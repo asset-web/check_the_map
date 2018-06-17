@@ -6,4 +6,4 @@ django-leaflet==0.24.0
 django-location-field==2.0.3
 django-easy-maps==0.9.3
 pip-tools==2.0.2
-psycopg2==2.7.4
+psycopg2==2.7.5
