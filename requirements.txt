@@ -1,9 +1,9 @@
-Django==1.11.7
-Pillow==4.3.0
-wagtail==1.13
-django-treasuremap==0.2.5
-django-leaflet==0.22.0
+Django==1.11.13  # rq.filter: >=1.11,<2
+Pillow==5.1.0
+wagtail==2.1
+django-treasuremap==0.2.6
+django-leaflet==0.24.0
 django-location-field==2.0.3
 django-easy-maps==0.9.3
-pip-tools==1.10.1
-psycopg2==2.7.3.2
+pip-tools==2.0.2
+psycopg2==2.7.5
