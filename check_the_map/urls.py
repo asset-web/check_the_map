@@ -13,9 +13,9 @@ from wagtail.wagtailcore import urls as wagtail_urls
 urlpatterns = [
     url(r'^django-admin/', include(admin.site.urls)),
 
-    re_path(r'^cms/', include(wagtailadmin_urls)),
-    re_path(r'^documents/', include(wagtaildocs_urls)),
-    re_path(r'^pages/', include(wagtail_urls)),
+    url(r'^cms/', include(wagtailadmin_urls)),
+    url(r'^documents/', include(wagtaildocs_urls)),
+    url(r'^pages/', include(wagtail_urls)),
 
     url(r'^search/$', search_views.search, name='search'),
 
