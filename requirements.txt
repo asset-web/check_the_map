@@ -1,5 +1,5 @@
 Django==1.11.13  # rq.filter: >=1.11,<2
-Pillow==5.1.0
+Pillow==5.2.0
 wagtail==1.13.1  # rq.filter: >=1.12,<2
 django-treasuremap==0.2.6
 django-leaflet==0.24.0
