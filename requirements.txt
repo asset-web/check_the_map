@@ -1,7 +1,7 @@
 Django==1.11.16  # rq.filter: >=1.11,<2
 Pillow==5.3.0
 wagtail==1.13.4  # rq.filter: >=1.12,<2
-django-treasuremap==0.2.6
+django-treasuremap==0.2.7
 django-leaflet==0.24.0
 django-location-field==2.0.3
 django-easy-maps==0.9.3
