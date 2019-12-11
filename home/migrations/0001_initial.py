@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
 from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('wagtailcore', '__latest__'),
+        ('wagtailcore', '0040_page_draft_title'),
     ]
 
     operations = [
