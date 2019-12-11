@@ -19,7 +19,7 @@
                 <li>
                     <h4><a href="{% pageurl result %}">{{ result }}</a></h4>
                     {% if result.search_description %}
-                        {{ result.search_description|safe }}
+                        {{ result.search_description }}
                     {% endif %}
                 </li>
             {% endfor %}
