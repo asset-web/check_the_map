@@ -1,4 +1,4 @@
-# Check the Map Python/Django/Wagtail.io (redevelopment - in progress)
+# Check the Map Python/Django/Wagtail.io redevelopment - trial Wagtail CMS
 
 [![Requirements Status](https://requires.io/github/asset-web/check_the_map/requirements.svg?branch=master)](https://requires.io/github/asset-web/check_the_map/requirements/?branch=master)
 
