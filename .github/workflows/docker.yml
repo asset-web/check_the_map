@@ -1,0 +1,25 @@
+name: Test Docker builds
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build development Python Docker environment
+      run: docker build -t check_the_map .
+    - name: Record Docker version
+      run: docker -v
+    - name: Run development Python Docker environment
+      run: docker run --publish 8000:8000 --detach --name ctm check_the_map
+    - name: Check docker logs
+      run: docker logs ctm
+    - name: Run Django collectstatic management command
+      run: docker exec ctm python manage.py collectstatic
+    - name: Run Django tests
+      run: docker exec ctm python manage.py test
+    - name: Stop and remove docker container
+      run: |
+        docker stop ctm
+        docker rm ctm
